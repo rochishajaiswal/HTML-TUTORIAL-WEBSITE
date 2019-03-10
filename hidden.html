@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hidden Form Controls - HTML TUTORIALS</title>
+    <link rel="shortcut icon" href="tutorial.png" />
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <a href="#"><img class="top-button" src="top.png"></a>
+    <nav class="navbar-horizontal">
+        <ul>         
+            <img class="logo" src="tutorial.png">
+            <li id="head"><a href="index.html">HTML TUTORIAL</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="resource.html">Resources</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
+        </ul>
+    </nav>
+    <nav class="navbar-horizontal">
+        <ul class="nav-filler">         
+            <img class="logo" src="tutorial.png">
+            <li id="head"><a href="index.html">HTML TUTORIAL</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="resource.html">Resources</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
+        </ul>
+    </nav>
+    <div class="body">
+        <nav class="navbar-vertical"> 
+            <ul>         
+                <li><a href="form.html">Forms - Intro</a></li>
+                <li><a href="form-control.html">Form Controls</a></li>
+                <li><a class="subclass" href="text-input.html">&#x21AA;Text Input </a></li>
+                <li><a class="subclass" href="checkbox.html">&#x21AA; Checkboxes </a></li>
+                <li><a class="subclass" href="radiobox.html">&#x21AA; Radio Box </a></li>
+                <li><a class="subclass" href="selectbox.html">&#x21AA; Select Box </a></li>
+                <li><a class="subclass" href="file.html">&#x21AA; File Select Box</a></li>
+                <li><a class="subclass  active" href="hidden.html">&#x21AA; Hidden Control</a></li>
+                <li><a class="subclass" href="buttons.html">&#x21AA;Buttons</a></li>
+            </ul>
+         </nav>
+         <div class="container">
+            <br>
+            <h1 class="heading">Hidden Form Controls</h1>
+            <div class="content">Hidden form controls are used to hide data inside the page which later on can be pushed to the server. This control hides inside the code and does not appear on the actual page. For example, following hidden form is being used to keep current page number. When a user will click next page then the value of hidden control will be sent to the web server and there it will decide which page will be displayed next based on the passed current page.
+            </div>
+            <h1 class="heading">Example</h1>
+            <div class="content">
+                <p>Code Snippet :</p>
+                <div class="example"><code>&lt;form><br>
+                        &lt;p>This is page 10&lt;/p><br>
+                        &lt;input type = "hidden" name = "pagename" value = "10" /><br>
+                        &lt;input type = "submit" name = "submit" value = "Submit" /><br>
+                        &lt;input type = "reset" name = "reset"  value = "Reset" /><br>
+                    &lt;/form></code>
+                </div>
+                <p>Preview :</p>
+                <div class="preview">
+                    <form>
+                        <p>This is page 10</p>
+                        <input type = "hidden" name = "pagename" value = "10" />
+                        <input type = "submit" name = "submit" value = "Submit" />
+                        <input type = "reset" name = "reset"  value = "Reset" />
+                    </form>
+                </div>
+            </div>
+            <center><a href="file.html" alt="Previous"><img class="flow" src="prev.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="buttons.html" alt="Next"><img class="flow" src="next.png"></a></center>
+        </div>       
+        <br>
+    </div>
+</body>
+</html>
+

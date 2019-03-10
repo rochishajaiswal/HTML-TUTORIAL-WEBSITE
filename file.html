@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Upload Box - HTML TUTORIALS</title>
+    <link rel="shortcut icon" href="tutorial.png" />
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <a href="#"><img class="top-button" src="top.png"></a>
+    <nav class="navbar-horizontal">
+        <ul>         
+            <img class="logo" src="tutorial.png">
+            <li id="head"><a href="index.html">HTML TUTORIAL</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="resource.html">Resources</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
+        </ul>
+    </nav>
+    <nav class="navbar-horizontal">
+        <ul class="nav-filler">         
+            <img class="logo" src="tutorial.png">
+            <li id="head"><a href="index.html">HTML TUTORIAL</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="resource.html">Resources</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
+        </ul>
+    </nav>
+    <div class="body">
+        <nav class="navbar-vertical"> 
+            <ul>         
+                <li><a href="form.html">Forms - Intro</a></li>
+                <li><a href="form-control.html">Form Controls</a></li>
+                <li><a class="subclass" href="text-input.html">&#x21AA;Text Input </a></li>
+                <li><a class="subclass" href="checkbox.html">&#x21AA; Checkboxes </a></li>
+                <li><a class="subclass" href="radiobox.html">&#x21AA; Radio Box </a></li>
+                <li><a class="subclass" href="selectbox.html">&#x21AA; Select Box </a></li>
+                <li><a class="subclass active" href="file.html">&#x21AA; File Select Box</a></li>
+                <li><a class="subclass" href="hidden.html">&#x21AA; Hidden Control</a></li>
+                <li><a class="subclass" href="buttons.html">&#x21AA;Buttons</a></li>
+            </ul>
+         </nav>
+         <div class="container">
+            <br>
+            <h1 class="heading">File Upload Box</h1>
+            <div class="content">If you want to allow a user to upload a file to your web site, you will need to use a file upload box, also known as a file select box. This is also created using the <b>&lt;input></b> element but type attribute is set to <b>file</b>.
+            </div>
+            <h1 class="heading">Example</h1>
+            <div class="content">
+                <p>Code Snippet :</p>
+                <div class="example"><code>&lt;form><br>
+                        &lt;input type = "file" name = "fileupload" accept = "image/*" /><br>
+                    &lt;/form></code>
+                </div>
+                <p>Preview :</p>
+                <div class="preview">
+                    <form>
+                        <input type = "file" name = "fileupload" accept = "image/*" />
+                    </form>
+                </div>
+            </div>
+            <h1 class="heading">Attributes</h1>
+            <div class="table">
+                <table width="100%" cellpadding="15px" border="1px" cellspacing="0">
+                    <tr bgcolor="#f1f1f1">
+                        <th>Sl.</th>
+                        <th>Attribute</th>
+                        <th>Description</th>
+                        <th>Values</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>name</td>
+                        <td>Used to give a name to the control which is sent to the server to be recognized and get the value.</td>
+                        <td>User decided.</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>accept</td>
+                        <td>Specifies the types of files that the server accepts.</td>
+                        <td>audio/*, image/*, video/*, etc.</td>
+                    </tr>
+                </table>
+            </div>
+            <center><a href="selectbox.html" alt="Previous"><img class="flow" src="prev.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="hidden.html" alt="Next"><img class="flow" src="next.png"></a></center>
+        </div>       
+        <br>
+    </div>
+</body>
+</html>
+

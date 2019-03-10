@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buttons - HTML TUTORIALS</title>
+    <link rel="shortcut icon" href="tutorial.png" />
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <a href="#"><img class="top-button" src="top.png"></a>
+    <nav class="navbar-horizontal">
+        <ul>         
+            <img class="logo" src="tutorial.png">
+            <li id="head"><a href="index.html">HTML TUTORIAL</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="resource.html">Resources</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
+        </ul>
+    </nav>
+    <nav class="navbar-horizontal">
+        <ul class="nav-filler">         
+            <img class="logo" src="tutorial.png">
+            <li id="head"><a href="index.html">HTML TUTORIAL</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="resource.html">Resources</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
+        </ul>
+    </nav>
+    <div class="body">
+        <nav class="navbar-vertical"> 
+            <ul>         
+                <li><a href="form.html">Forms - Intro</a></li>
+                <li><a href="form-control.html">Form Controls</a></li>
+                <li><a class="subclass" href="text-input.html">&#x21AA;Text Input </a></li>
+                <li><a class="subclass" href="checkbox.html">&#x21AA; Checkboxes </a></li>
+                <li><a class="subclass" href="radiobox.html">&#x21AA; Radio Box </a></li>
+                <li><a class="subclass" href="selectbox.html">&#x21AA; Select Box </a></li>
+                <li><a class="subclass" href="file.html">&#x21AA; File Select Box</a></li>
+                <li><a class="subclass" href="hidden.html">&#x21AA; Hidden Control</a></li>
+                <li><a class="subclass   active" href="buttons.html">&#x21AA;Buttons</a></li>
+            </ul>
+         </nav>
+         <div class="container">
+            <br>
+            <h1 class="heading">Button Controls</h1>
+            <div class="content">There are various ways in HTML to create clickable buttons. You can also create a clickable button using <b>&lt;input></b>tag by setting its type attribute to <b>button</b>.
+            </div>
+            <h1 class="heading">Example</h1>
+            <div class="content">
+                <p>Code Snippet :</p>
+                <div class="example"><code>&lt;form><br>
+                        &lt;p>Type something in the input box and press reset button to see how it works&lt;/p><br>
+                        &lt;input type = "text" value="Clicking the reset value will delete this line"/>&lt;br><br>
+                        &lt;input type = "submit" name = "submit" value = "Submit" /><br>
+                        &lt;input type = "reset" name = "reset"  value = "Reset" /><br>
+                        &lt;input type = "button" name = "ok" value = "OK" /> <br>
+                    &lt;/form></code>
+                </div>
+                <p>Preview :</p>
+                <div class="preview">
+                    <form action="redirect.html">
+                        <p>Type something in the input box and press reset button to see how it works</p>
+                        <input type = "text" /><br><br>
+                        <input type = "submit" name = "submit" value = "Submit" />
+                        <input type = "reset" name = "reset"  value = "Reset" />
+                        <input type = "button" name = "ok" value = "OK" /> 
+                    </form>
+                </div>
+            </div>
+            <center><a href="hidden.html" alt="Previous"><img class="flow" src="prev.png"></a></center>
+        </div>       
+        <br>
+    </div>
+</body>
+</html>
+

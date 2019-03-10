@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forms - HTML TUTORIALS</title>
+    <link rel="shortcut icon" href="tutorial.png" />
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <a href="#"><img class="top-button" src="top.png"></a>
+    <nav class="navbar-horizontal">
+        <ul>         
+            <img class="logo" src="tutorial.png">
+            <li id="head"><a href="index.html">HTML TUTORIAL</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="resource.html">Resources</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
+        </ul>
+    </nav>
+    <nav class="navbar-horizontal">
+        <ul class="nav-filler">         
+            <img class="logo" src="tutorial.png">
+            <li id="head"><a href="index.html">HTML TUTORIAL</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="resource.html">Resources</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
+        </ul>
+    </nav>
+    <div class="body">
+        <nav class="navbar-vertical"> 
+            <ul>         
+                <li><a class="active" href="form.html">Forms - Intro</a></li>
+                <li><a href="form-control.html">Form Controls</a></li>
+                <li><a class="subclass" href="text-input.html">&#x21AA;Text Input </a></li>
+                <li><a class="subclass" href="checkbox.html">&#x21AA; Checkboxes </a></li>
+                <li><a class="subclass" href="radiobox.html">&#x21AA; Radio Box </a></li>
+                <li><a class="subclass" href="selectbox.html">&#x21AA; Select Box </a></li>
+                <li><a class="subclass" href="file.html">&#x21AA; File Select Box</a></li>
+                <li><a class="subclass" href="hidden.html">&#x21AA; Hidden Control</a></li>
+                <li><a class="subclass" href="buttons.html">&#x21AA;Buttons</a></li>
+            </ul>
+         </nav>
+         <div class="container">
+            <br>
+            <h1 class="heading">Introduction</h1>
+            <div class="content"><p>HTML Forms are required, when you want to collect some data from the site visitor. For example, during user registration you would like to collect information such as name, email address, credit card, etc.</p><p>A form will take input from the site visitor and then will post it to a back-end application such as CGI, ASP Script or PHP script etc. The back-end application will perform required processing on the passed data based on defined business logic inside the application.</p><p>There are various form elements available like text fields, textarea fields, drop-down menus, radio buttons, checkboxes, etc.</p><p>The HTML form tag is used to create an HTML form and it has following syntax </p>
+            </div>
+            <h1 class="heading">Example</h1>
+            <div class="content">
+                <p>Code Snippet :</p>
+                <div class="example"><code>&lt;form action="/action_page.php"><br>
+                    First name:&lt;br><br>
+                    &lt;input type="text" name="firstname" value="Mickey"><br>
+                    &lt;br><br>
+                    Last name:&lt;br><br>
+                    &lt;input type="text" name="lastname" value="Mouse"><br>
+                    &lt;br>&lt;br><br>
+                    &lt;input type="submit" value="Submit"><br>
+                &lt;/form> <br>
+                &lt;p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".&lt;/p></code>
+                </div>
+                <p>Preview :</p>
+                <div class="preview">
+                    <form action="redirect.html" target="_blank">
+                        First name:<br>
+                        <input type="text" name="firstname" value="Mickey">
+                        <br>
+                        Last name:<br>
+                        <input type="text" name="lastname" value="Mouse">
+                        <br><br>
+                        <input type="submit" value="Submit">
+                    </form> 
+                    <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+                </div>
+            </div>    
+            <h1 class="heading">Attributes</h1>
+            <div class="table">
+                <table width="100%" cellpadding="15px" border="1px" cellspacing="0">
+                    <tr bgcolor="#f1f1f1">
+                        <th>Sl.</th>
+                        <th>Attribute</th>
+                        <th>Description</th>
+                        <th>Values</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>action</td>
+                        <td>Backend script ready to process your passed data.</td>
+                        <td>File name where control is to be transfered</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>method</td>
+                        <td>Method to be used to upload data.</td>
+                        <td>GET, POST</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>target</td>
+                        <td>Specify the target window or frame where the result of the script will be displayed.</td>
+                        <td>_blank, _self, _parent etc.</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>enctype</td>
+                        <td>You can use the enctype attribute to specify how the browser encodes the data before it sends it to the server.</td>
+                        <td><b>application/x-www-form-urlencoded</b> − This is the standard method most forms use in simple scenarios.<br>
+                        <b>mutlipart/form-data</b> − This is used when you want to upload binary data in the form of files like image, word file etc.</td>
+                    </tr>
+                </table>
+            </div>         
+            <center><a href="#"><a href="form-control.html"><img class="flow" src="next.png"></a></center>
+            <br>
+         </div>
+    </div>
+</body>
+</html>
+
